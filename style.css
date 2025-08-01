@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+body {
+    background-color: rgb(198, 105, 222);
+    /* background-color: #1e293b; */
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    font-size: 20px;
+    height: 80px;
+    width: 100vw;
+    background-color: navy;
+    /* background-color: #0f172a; */
+    color: white;
+    position: relative;
+    top: 0;
+
+}
+
+nav h1 {
+    width: fit-content;
+}
+
+.alert {
+    height: 130px;
+    width: 400px;
+    background-color: green;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 37%;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 8px;
+    z-index: 2;
+}
+
+#alert-msg {
+    line-height: 2.5rem;
+    font-size: 1.2em;
+}
+
+#btn {
+    font-size: 1em;
+    background-color: rgb(7, 7, 90);
+    color: white;
+    padding: 5px 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 13px;
+}
+
+#btn:hover {
+    background-color: blue;
+}
+
+.visible {
+    visibility: visible;
+
+}
+
+.notVisible {
+    visibility: collapse;
+}
+
+.notClickable {
+    pointer-events: none;
+}
+
+main .imgs {
+    gap: 3rem;
+    margin-top: 2rem;
+
+}
+
+main .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 182px;
+    width: 182px;
+    border-radius: 50%;
+}
+
+main .choices img {
+    object-fit: cover;
+}
+
+.imgs .choices:hover {
+    background-color: navy;
+
+
+}
+
+.choices img {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+
+}
+
+main .pick-move {
+    margin-top: 3rem;
+    justify-items: center;
+}
+
+main .pick-move p {
+    line-height: 20px;
+    width: fit-content;
+    background-color: navy;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.score {
+    gap: 3rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.who{
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="center">
+        <h1>Rock Paper Scissors</h1>
+    </nav>
+
+    <div class="alert notVisible">
+        <p id="alert-msg">Congratulations ,You are Winner !</p>
+        <button id="btn">Ok</button>
+    </div>
+
+    <main class="main">
+        <div class="imgs center">
+            <div class="choices" id="rock"><img src="images/rock.png" alt=""></div>
+            <div class="choices" id="paper"><img src="images/paper.png" alt=""></div>
+            <div class="choices" id="scissor"><img src="images/scissors.png" alt=""></div>
+        </div>
+
+        <div class="score center">
+            <div class="you">
+                <div class="score-display center" id="user-score">0</div>
+                <div class="who">You</div>
+            </div>
+            <div class="comp">
+                <div class="score-display center" id="comp-score">0</div>
+                <div class="who">Comp</div>
+            </div>
+        </div>
+        <div class="pick-move">
+            <p id="msg">Pick Your Move</p>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
